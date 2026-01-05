@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class Servicable {
+public interface Servicable {
+    void performService();
+    int getServiceIntervalKm();
 }
