@@ -55,6 +55,9 @@ public abstract class Vehicle {
 
     public abstract double calculateInsuranceFee();
 
+
+
+
     @Override
     public String toString() {
         return "Vehicle{id=" + id +
